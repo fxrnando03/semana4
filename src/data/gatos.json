@@ -1,26 +1,26 @@
 [
     {
-        "name": "Gato 1",
-        "slug": "gato-1",
-        "description": "Descripcion Michi 1",
-        "picture": "https://s1.eestatic.com/2020/05/18/como/gatos-mascotas-trucos_490961518_152142875_1706x960.jpg"
+        "name": "Elden Ring",
+        "slug": "elden-ring",
+        "description": "Elden Ring es un videojuego de rol de acción desarrollado por FromSoftware y publicado por Bandai Namco Entertainment. El videojuego surge de una colaboración entre el director y diseñador Hidetaka Miyazaki y el novelista de fantasía George R. R. Martin",
+        "picture": "https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/aGhopp3MHppi7kooGE2Dtt8C.png"
     },
     {
-        "name": "Gato 2",
-        "slug": "gato-2",
-        "description": "Descripcion Michi 2 ",
-        "picture": "https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600&h=900"
+        "name": "Bloodbrone",
+        "slug": "bloodborne",
+        "description": "es un desafiante y tenebroso juego cooperativo donde 1 a 4 Cazadores deberán explorar la ciudad de Yharnam y luchar contra bestias, monstruos y ciudadanos enloquecidos. Solo así sobrevivirán a la noche y erradicarán la fuente de la locura que la consume. ",
+        "picture": "https://image.api.playstation.com/vulcan/img/rnd/202010/2614/NVmnBXze9ElHzU6SmykrJLIV.png"
     },
     {
-        "name": "Gato 3",
-        "slug": "gato-3",
-        "description": "Descripcion Michi 3",
-        "picture": "https://fotografias.lasexta.com/clipping/cmsimages02/2019/01/25/DB41B993-B4C4-4E95-8B01-C445B8544E8E/69.jpg?crop=4156,2338,x0,y219&width=1280&height=720&optimize=high&format=webply"
+        "name": "God Of War Ragnarok",
+        "slug": "god-of-war-ragnarok",
+        "description": "a",
+        "picture": "https://media.revistagq.com/photos/613b43731df3ece1388a2f67/4:3/w_920,h_690,c_limit/God-of-War-Ragnarok-Featured-image.jpeg"
     },
     {
-        "name": "Gato 4",
-        "slug": "gato-4",
-        "description": "Rufus",
-        "picture": "https://fotografias.lasexta.com/clipping/cmsimages02/2019/01/25/DB41B993-B4C4-4E95-8B01-C445B8544E8E/69.jpg?crop=4156,2338,x0,y219&width=1280&height=720&optimize=high&format=webply"
+        "name": "Doom Eternal",
+        "slug": "doom-eternal",
+        "description": "Doom Eternal es un videojuego de acción de disparos en primera persona desarrollado por id Software y publicado por Bethesda Softworks",
+        "picture": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70070000011025/09fde58766118f7aec9f6ff30f3a8d6e7ba37ace336e79097643431c911d99c1"
     }
 ]

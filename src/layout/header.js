@@ -4,7 +4,7 @@ const Header = () => {
     return <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <Link class="navbar-brand" to="/">Mis gatos</Link>
+                <Link class="navbar-brand" to="/">Inicio</Link>
             </div>
         </nav>
     </header>;
