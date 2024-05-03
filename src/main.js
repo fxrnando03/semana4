@@ -1,48 +1,41 @@
 import Carousel from 'react-bootstrap/Carousel';
-import pato from './pato.jpg';
-import pato2 from './pato2.jpg'
+import { useNavigate } from "react-router-dom";
+import Gatos from './data/gatos.json'
+
+const feather = require('feather-icons');
+
+setTimeout(() => {
+    feather.replace();
+}, 1000);
+
 
 
 const Main = () => {
-    return <main>
-            <img
-            className="d-block w-100"
-            src={pato}
-            alt="First slide"
-            /> 
+    const navigate = useNavigate();
 
-            <img
-            className="d-block w-100"
-            src={pato2}
-            alt="First slide"
-            /> 
-        <Carousel fade>
-      <Carousel.Item>
-        <pato text="First slide" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <pato text="Second slide" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <pato text="Third slide" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-    
-    </main>;
+    const handleClick = (slug) => {
+        alert(slug);
+        navigate("/detalle/" + slug);
+    }
+
+    return <main>
+        <Carousel>
+            {
+                Gatos.map(it => {
+                    return (<Carousel.Item onClick={(e) => {
+                        e.preventDefault(); handleClick(it.slug)
+                    }}>
+                        <img className='w-100 dark-image' src={it.picture}></img>
+                        <Carousel.Caption>
+                            <h3>{it.name}</h3>
+                            <p>{it.description}</p>
+                            <button className="btn btn-primary" >Ver detalle</button>
+                        </Carousel.Caption>
+                    </Carousel.Item>);
+                })
+            }
+        </Carousel>
+    </main >;
 }
 
 export default Main;
